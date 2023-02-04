@@ -1,0 +1,3 @@
+input<-diabetes[c("age","bloodpressure","glucose")]
+model<-im(age~bloodpressure+glucose,data=input)
+print(model)
