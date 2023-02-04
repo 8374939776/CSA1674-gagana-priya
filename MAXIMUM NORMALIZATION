@@ -1,0 +1,7 @@
+diabetes<-read.csv("D:\\DWHDM\\diabetes.csv")
+A<-c(diabetes$Age)
+Maximum<-max(diabetes$Age)
+MINMAX NORMALIZATION
+diabetes<-read.csv("D:\\DWHDM\\diabetes.csv")
+A<-c(diabetes$Age)
+Minmax<-(A-Minimum)/(Maximum-Minimum)
